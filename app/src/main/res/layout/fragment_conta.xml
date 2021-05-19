@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgVer"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/ic_baseline_add_a_photo_24" />
+
+            <TextView
+                android:id="@+id/editFoto"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:drawableRight="@drawable/ic_baseline_edit_24"
+                android:gravity="center"
+                android:text="EDITAR FOTO "
+                android:textColor="#4870E4"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/nome_atual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOME ATUAL "
+                android:textColor="#4870E4"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/edtar_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NOVO NOME"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/email_atual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E-MAIL ATUAL "
+                android:textColor="#4870E4"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/editar_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NOVO E-MAIL"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/senha_atual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SENHA ATUAL "
+                android:textColor="#4870E4"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/editar_senha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NOVA SENHA"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnUp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radius_bottomfc"
+                android:text="ATUALIZAR"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSessFim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radius_bottomfc"
+                android:text="SAIR"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

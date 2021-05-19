@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Usuario_Beer">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imgUserNew"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/ic_baseline_add_a_photo_24" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ADICIONAR FOTO AO PERFIL"
+            android:textColor="#1F4BED"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edt_Unome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="MEU NOME"
+            android:inputType="textPersonName"
+            android:textColorHint="#1F4BED"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edt_Uemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="MEU E-MAIL"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#1F4BED"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edt_Usenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="MINHA SENHA"
+            android:inputType="textPersonName"
+            android:textColorHint="#1F4BED"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_cad"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_bottomfc"
+            android:text="ENVIAR DADOS"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/btnVcad"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:drawableBottom="@drawable/ic_baseline_arrow_back_ios_24" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

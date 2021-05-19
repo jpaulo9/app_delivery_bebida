@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/layout_cardrds">
+
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textView55" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="20dp"
+            android:layout_height="100dp" />
+
+        <ImageView
+            android:id="@+id/imgBebList"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/textView54"
+            android:layout_toRightOf="@id/textView55"
+            app:srcCompat="@drawable/ic_baseline_local_bar1_24" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView54"
+            android:layout_alignParentTop="false"
+            android:layout_toRightOf="@id/imgBebList" />
+
+        <TextView
+            android:id="@+id/bebida_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView41"
+            android:layout_toRightOf="@id/imgBebList"
+            android:text="    NOME E MEDIDA"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/bebida_nome"
+            android:layout_toRightOf="@id/imgBebList" />
+
+        <TextView
+            android:id="@+id/bebida_preco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView27"
+            android:layout_toRightOf="@id/imgBebList"
+            android:text="    PREÇO"
+            android:textColor="#77FF18" />
+
+        <TextView
+            android:id="@+id/seguirB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bebida_nome"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentRight="true"
+            android:drawableTop="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgBebList" />
+    </RelativeLayout>
+
+
+</ScrollView>

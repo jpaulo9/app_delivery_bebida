@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".LayoutHome">
+
+    <FrameLayout
+        android:id="@+id/navegue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/botom_navegate" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botom_navegate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+
+        android:background="@drawable/radius_edit_lay"
+        app:itemIconTint="#1F4BED"
+        app:itemTextColor="#1F4BED"
+        app:menu="@menu/menu_bottom" />
+
+
+</RelativeLayout>

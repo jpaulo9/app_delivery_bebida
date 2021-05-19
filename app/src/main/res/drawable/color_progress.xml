@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+
+            <shape
+                android:shape="ring"
+                android:useLevel="false">
+                <solid android:color="#1F4BED"/>
+
+
+            </shape>
+
+
+
+    </item>
+
+
+<item android:id="@+id/progress_circular"
+    >
+
+    <rotate android:fromDegrees="120" android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="0">
+
+        <shape android:shape="ring"
+            android:useLevel="true">
+            <solid
+                android:color="#4870E4"/>
+
+        </shape>
+
+    </rotate>
+
+
+</item>
+
+</layer-list>

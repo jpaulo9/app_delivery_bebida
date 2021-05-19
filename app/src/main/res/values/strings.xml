@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Beer Delivery</string>
+    <string name="title_activity_minha_localizacao">Map</string>
+</resources>
